@@ -19,6 +19,7 @@ function createWindow(): void {
       devTools: isDevelopment,
     },
   });
+  mainWindow.maximize();
 
   // and load the index.html of the app.
   mainWindow
