@@ -9,8 +9,10 @@ const isDevelopment = process.env.NODE_ENV === 'development';
 function createWindow(): void {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    height: 600,
-    width: 800,
+    height: 800,
+    width: 1280,
+    minHeight: 800,
+    minWidth: 1280,
     webPreferences: {
       webSecurity: true,
       allowRunningInsecureContent: false,
